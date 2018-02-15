@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monopoly</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script href="jquery-3.2.1.min.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="main_div_father">
+		
+	<div class="player_1_left">
+		<div class="ssa">
+			<div class="ssa_1">
+				<div class="ssa_1_1" id="ssa_1_1_pl1"></div>
+				<div class="ssa_1_2" id="ssa_1_2_1">saxeli</div>
+				<div class="ssa_1_3" id="ssa_1_3_1">50000</div>
+			</div>
+			<div class="sajarimo_sadgomi" id="saj_1">gamosatovebeli gagorebebi 0</div>
+			<div class="ssa_2" id="ssa_2_1"></div>
+			<div class="ssa_3">
+				<div class="messeg" id="messeg_1"></div>
+				<div class="bisunes" id="bisunes_1"></div>
+				<div class="kam_roll_1" id="kam_roll_1"></div>
+			</div>
+		</div>
+		<div class="player_action_show">
+			<div class="player_action_show_childe" id="pl_1_action_1"></div>
+			<div class="player_action_show_childe" id="pl_1_action_3"></div>
+			<div class="player_action_show_childe" id="pl_1_action_5"></div>
+			<div class="player_action_show_childe" id="pl_1_action_6"></div>
+			<div class="player_action_show_childe" id="pl_1_action_8"></div>
+			<div class="player_action_show_childe" id="pl_1_action_9"></div>
+			<div class="player_action_show_childe" id="pl_1_action_11"></div>
+			<div class="player_action_show_childe" id="pl_1_action_12"></div>
+			<div class="player_action_show_childe" id="pl_1_action_13"></div>
+			<div class="player_action_show_childe" id="pl_1_action_14"></div>
+			<div class="player_action_show_childe" id="pl_1_action_15"></div>
+			<div class="player_action_show_childe" id="pl_1_action_16"></div>
+			<div class="player_action_show_childe" id="pl_1_action_18"></div>
+			<div class="player_action_show_childe" id="pl_1_action_19"></div>
+			<div class="player_action_show_childe" id="pl_1_action_21"></div>
+			<div class="player_action_show_childe" id="pl_1_action_23"></div>
+			<div class="player_action_show_childe" id="pl_1_action_24"></div>
+			<div class="player_action_show_childe" id="pl_1_action_25"></div>
+			<div class="player_action_show_childe" id="pl_1_action_26"></div>
+			<div class="player_action_show_childe" id="pl_1_action_27"></div>
+			<div class="player_action_show_childe" id="pl_1_action_28"></div>
+			<div class="player_action_show_childe" id="pl_1_action_29"></div>
+			<div class="player_action_show_childe" id="pl_1_action_31"></div>
+			<div class="player_action_show_childe" id="pl_1_action_32"></div>
+			<div class="player_action_show_childe" id="pl_1_action_34"></div>
+			<div class="player_action_show_childe" id="pl_1_action_35"></div>
+			<div class="player_action_show_childe" id="pl_1_action_37"></div>
+			<div class="player_action_show_childe" id="pl_1_action_39"></div>
+		</div>
+	</div>
+<div class="main_div">
+<div class="left">
+	<div class="aqcia_1" id="aqcia_1_1">
+		<div class="car_player1_1" id="car_1_20"></div>
+		<div class="car_player2_1" id="car_2_20"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_2">
+		<div class="home_1">
+			<div class="small_hose_1" id="small_19">
+				<div class="small_hose_childe_1" id="small_childe_19_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_19_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_19_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_19_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_19_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_1" id="car_1_19"></div>
+		<div class="car_player2_1" id="car_2_19"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_3">
+		<div class="home_1">
+			<div class="small_hose_1" id="small_18">
+				<div class="small_hose_childe_1" id="small_childe_18_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_18_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_18_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_18_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_18_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_1" id="car_1_18"></div>
+		<div class="car_player2_1" id="car_2_18"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_4">
+		<div class="car_player1_1" id="car_1_17"></div>
+		<div class="car_player2_1" id="car_2_17"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_5">
+		<div class="home_1">
+			<div class="small_hose_1" id="small_16">
+				<div class="small_hose_childe_1" id="small_childe_16_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_16_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_16_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_16_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_16_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_1" id="car_1_16"></div>
+		<div class="car_player2_1" id="car_2_16"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_6">
+		<div class="car_player1_1" id="car_1_15"></div>
+		<div class="car_player2_1" id="car_2_15"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_7">
+		<div class="home_1">
+			<div class="small_hose_1" id="small_14">
+				<div class="small_hose_childe_1" id="small_childe_14_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_14_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_14_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_14_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_14_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_1" id="car_1_14"></div>
+		<div class="car_player2_1" id="car_2_14"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_8">
+		<div class="home_1">
+			<div class="small_hose_1" id="small_13">
+				<div class="small_hose_childe_1" id="small_childe_13_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_13_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_13_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_13_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_13_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_1" id="car_1_13"></div>
+		<div class="car_player2_1" id="car_2_13"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_9">
+		<div class="car_player1_1" id="car_1_12"></div>
+		<div class="car_player2_1" id="car_2_12"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_10">
+		<div class="home_1">
+			<div class="small_hose_1" id="small_11">
+				<div class="small_hose_childe_1" id="small_childe_11_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_11_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_11_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_11_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_11_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_1" id="car_1_11"></div>
+		<div class="car_player2_1" id="car_2_11"></div>
+	</div>
+	<div class="aqcia_1" id="aqcia_1_11">
+		<div class="car_player1_1" id="car_1_10"></div>
+		<div class="car_player2_1" id="car_2_10"></div>
+	</div>
+</div>
+<div class="top_1" id="top_1">
+	<div class="aqcia_3" id="aqcia_3_1">
+		<div class="home_0">
+			<div class="small_hose_1" id="small_9">
+				<div class="small_hose_childe_1" id="small_childe_9_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_9_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_9_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_9_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_9_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_0" id="car_1_9"></div>
+		<div class="car_player2_0" id="car_2_9"></div>
+	</div>
+	<div class="aqcia_3" id="aqcia_3_2">
+		<div class="home_0">
+			<div class="small_hose_1" id="small_8">
+				<div class="small_hose_childe_1" id="small_childe_8_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_8_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_8_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_8_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_8_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_0" id="car_1_8"></div>
+		<div class="car_player2_0" id="car_2_8"></div>
+	</div>
+	<div class="aqcia_3" id="aqcia_3_3">
+		
+		<div class="car_player1_0" id="car_1_7"></div>
+		<div class="car_player2_0" id="car_2_7"></div>
+	</div>
+	<div class="aqcia_3" id="aqcia_3_4">
+		<div class="home_0">
+			<div class="small_hose_1" id="small_6">
+				<div class="small_hose_childe_1" id="small_childe_6_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_6_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_6_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_6_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_6_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_0" id="car_1_6"></div>
+		<div class="car_player2_0" id="car_2_6"></div>
+	</div>
+	<div class="aqcia_3" id="aqcia_3_5">
+		
+		<div class="car_player1_0" id="car_1_5"></div>
+		<div class="car_player2_0" id="car_2_5"></div>
+	</div>
+	<div class="aqcia_3" id="aqcia_3_6">
+		
+		<div class="car_player1_0" id="car_1_4"></div>
+		<div class="car_player2_0" id="car_2_4"></div>
+	</div>
+	<div class="aqcia_3" id="aqcia_3_7">
+		<div class="home_0">
+			<div class="small_hose_1" id="small_3">
+				<div class="small_hose_childe_1" id="small_childe_3_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_3_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_3_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_3_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_3_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_0" id="car_1_3"></div>
+		<div class="car_player2_0" id="car_2_3"></div>
+	</div>
+	<div class="aqcia_3" id="aqcia_3_8">
+		
+		<div class="car_player1_0" id="car_1_2"></div>
+		<div class="car_player2_0" id="car_2_2"></div>
+	</div>
+	<div class="aqcia_3" id="aqcia_3_9">
+		<div class="home_0">
+			<div class="small_hose_1" id="small_1">
+				<div class="small_hose_childe_1" id="small_childe_1_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_1_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_1_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_1_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_1_5" >
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_0" id="car_1_1"></div>
+		<div class="car_player2_0" id="car_2_1"></div>
+	</div>
+</div>
+<div class="top_2" id="top_2">
+<div class="top_2_1" id="top_2_1">
+	<div class="sound_137"></div>
+	<div class="telefoni" id="telefoni"></div>
+	<div class="dazgveva" id="dazgveva">giorgiggggggggggggggg<br>gggggggggggggggggg<br>ggggggggggggggggggggg</div>
+	<div class="main_active">
+		<div class="Dice_movement">
+			<div class="kamateli_1"></div>
+			<div class="kamateli_2"></div>
+		</div>
+		<div class="action_show">
+				<div class="name_action">saxeli saxeli saxeli</div>
+				<div class="gadasaxdeli_carilerze">gadasaxdeli carielze 3000</div>
+
+				<div class="home_1_prise">1 saxelis girebu</div>
+				<div class="home_2_prise">1 saxelis girebu</div>
+				<div class="home_3_prise">1 saxelis girebu</div>
+				<div class="home_4_prise">1 saxelis girebu</div>
+				<div class="home_5_prise">1 saxelis girebu</div>
+
+				<div class="home_1_pay">1 saxelize gadasaxdeli 2000</div>
+				<div class="home_2_pay">1 saxelize gadasaxdeli 2000</div>
+				<div class="home_3_pay">1 saxelize gadasaxdeli 2000</div>
+				<div class="home_4_pay">1 saxelize gadasaxdeli 2000</div>
+				<div class="home_5_pay">1 saxelize gadasaxdeli 2000</div>
+
+				<div class="yidvis_fasi">1 saxelize gadasaxdeli 2000</div>
+				<div class="gayidvis_fasi_fasi">1 saxelize gadasaxdeli 2000</div>
+
+				<div class="botton_block">
+					<div class="botton_gavla"></div>
+					<div class="botton_yidva"></div>
+				</div>
+		</div>
+		<div class="gadaxda_206" id="gadaxda_206">
+			<div class="name_action_1">saxelixassaxafasddasasd</div>
+			<div class="name_action_2">gadasaxdeli</div>
+			<div class="name_action_3"></div>
+			<div class="name_action_4">60000</div>
+			<div class="name_action_5"></div>
+			<div class="name_action_6"></div>
+		</div>
+	</div>
+</div>
+<div class="top_2_1" id="top_2_2">
+	<div class="player_st">
+		<div class="player_st_1">
+			<div class="player_st_1_1" id="player_st_1_1"></div>
+			<div class="player_st_1_1" id="player_st_1_2"></div>
+			<div class="player_st_1_1" id="player_st_1_3"></div>
+			<div class="player_st_1_1" id="player_st_1_4"></div>
+			<div class="player_st_1_1" id="player_st_1_5"></div>
+			<div class="player_st_1_1" id="player_st_1_6"></div>
+		</div>
+		<div class="player_st_2">
+			<div class="text1">saxeli</div>
+			<input type="text" name="saxeli" class="text_inp" id="palyer_1_name">
+		</div>
+		<div class="player_st_3">
+			<div class="chose_car" id ="chose_car_1_1"></div>
+			<div class="chose_car" id ="chose_car_1_2"></div>
+		</div>
+	</div>
+	<div class="player_st">
+		<div class="player_st_1">
+			<div class="player_st_1_1" id="player_st_2_1"></div>
+			<div class="player_st_1_1" id="player_st_2_2"></div>
+			<div class="player_st_1_1" id="player_st_2_3"></div>
+			<div class="player_st_1_1" id="player_st_2_4"></div>
+			<div class="player_st_1_1" id="player_st_2_5"></div>
+			<div class="player_st_1_1" id="player_st_2_6"></div>
+		</div>
+		<div class="player_st_2">
+			<div class="text1">saxeli</div>
+			<input type="text" name="saxeli" class="text_inp" id="palyer_2_name">
+		</div>
+		<div class="player_st_3">
+			<div class="chose_car" id ="chose_car_2_1"></div>
+			<div class="chose_car" id ="chose_car_2_2"></div>
+		</div>
+	</div>
+	<div class="start_game"></div>
+</div>
+<div class="top_2_1" id="top_2_3">
+	<div class="player_action_show_gayidva">
+			<div class="player_action_show_childe_gayidva" data-name="0" id="pl_1_action_1_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="2" id="pl_1_action_3_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="4" id="pl_1_action_5_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="5" id="pl_1_action_6_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="7" id="pl_1_action_8_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="8" id="pl_1_action_9_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="10" id="pl_1_action_11_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="11" id="pl_1_action_12_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="12" id="pl_1_action_13_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="13" id="pl_1_action_14_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="14" id="pl_1_action_15_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="15" id="pl_1_action_16_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="17" id="pl_1_action_18_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="18" id="pl_1_action_19_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="20" id="pl_1_action_21_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="22" id="pl_1_action_23_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="23" id="pl_1_action_24_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="24" id="pl_1_action_25_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="25" id="pl_1_action_26_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="26" id="pl_1_action_27_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="27" id="pl_1_action_28_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="28" id="pl_1_action_29_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="30" id="pl_1_action_31_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="31" id="pl_1_action_32_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="33" id="pl_1_action_34_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="34" id="pl_1_action_35_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="36" id="pl_1_action_37_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="38" id="pl_1_action_39_gayidva"></div>
+		</div>
+		<div class="diler_action_miyidva" id="numero_1_1">
+			<div class="text_piero">aqciis gayidva</div>
+			<div class="player__childe_gayidva" id="pl_1_gayidva"></div>
+			<div class="text_pl_1_gayidva">gasayidi fasi 10000</div>
+			<div class="button_pl_1_gayidva"></div>
+		</div>
+		<div class="diler_action_miyidva" id="numero_2_1">
+			<div class="text_piero">saxlis yidva</div>
+			<div class="player__childe_gayidva" id="pl_1_saxlis_yidva"></div>
+			<div class="all_home" id="all_home_1">
+				<div class="small" id="small_1_1"></div>
+				<div class="small" id="small_1_2"></div>
+				<div class="small" id="small_1_3"></div>
+				<div class="small" id="small_1_4"></div>
+			</div>
+			<div class="big_house" id="small_1_5"></div>
+			<div class="text_4" id="text_4_1">gadasaxdeli 30000</div>
+			<div class="button_def" id="button_minus_1"></div>
+			<div class="button_def_1" id="button_plius_1"></div>
+			<div class="button_pl_1_saxli_gayidva" id="off_bey_1"></div>
+			<div class="button_pl_1_saxli_yidva" id="bey_1"></div>
+		</div>
+
+	<div class="close_top_2_3"></div>
+</div>
+<div class="top_2_1" id="top_2_4">
+	<div class="player_action_show_gayidva">
+			<div class="player_action_show_childe_gayidva" data-name="0" id="pl_2_action_1_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="2" id="pl_2_action_3_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="4" id="pl_2_action_5_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="5" id="pl_2_action_6_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="7" id="pl_2_action_8_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="8" id="pl_2_action_9_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="10" id="pl_2_action_11_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="11" id="pl_2_action_12_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="12" id="pl_2_action_13_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="13" id="pl_2_action_14_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="14" id="pl_2_action_15_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="15" id="pl_2_action_16_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="17" id="pl_2_action_18_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="18" id="pl_2_action_19_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="20" id="pl_2_action_21_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="22" id="pl_2_action_23_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="23" id="pl_2_action_24_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="24" id="pl_2_action_25_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="25" id="pl_2_action_26_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="26" id="pl_2_action_27_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="27" id="pl_2_action_28_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="28" id="pl_2_action_29_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="30" id="pl_2_action_31_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="31" id="pl_2_action_32_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="33" id="pl_2_action_34_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="34" id="pl_2_action_35_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="36" id="pl_2_action_37_gayidva"></div>
+			<div class="player_action_show_childe_gayidva" data-name="38" id="pl_2_action_39_gayidva"></div>
+		</div>
+		<div class="diler_action_miyidva" id="numero_1_2">
+			<div class="text_piero">aqciis gayidva</div>
+			<div class="player__childe_gayidva" id="pl_2_gayidva"></div>
+			<div class="text_pl_1_gayidva" id="text_pl_2_gayidva"></div>
+			<div class="button_pl_1_gayidva" id="button_pl_2_gayidva"></div>
+		</div>
+		<div class="diler_action_miyidva" id="numero_2_2">
+			<div class="text_piero">saxlis yidva</div>
+			<div class="player__childe_gayidva" id="pl_2_saxlis_yidva"></div>
+			<div class="all_home" id="all_home_2">
+				<div class="small" id="small_2_1"></div>
+				<div class="small" id="small_2_2"></div>
+				<div class="small" id="small_2_3"></div>
+				<div class="small" id="small_2_4"></div>
+			</div>
+			<div class="big_house" id="small_2_5"></div>
+			<div class="text_4" id="text_4_2">gadasaxdeli 30000</div>
+			<div class="button_def" id="button_minus_2"></div>
+			<div class="button_def_1" id="button_plius_2"></div>
+			<div class="button_pl_1_saxli_gayidva" id="off_bey_2"></div>
+			<div class="button_pl_1_saxli_yidva" id="bey_2"></div>
+		</div>
+	<div class="close_top_2_4"></div>
+</div>
+</div>
+<div class="top_3" id="top_3">
+	<div class="aqcia_4" id="aqcia_4_1">
+		<div class="home_2">
+			<div class="small_hose_1" id="small_21">
+				<div class="small_hose_childe_1" id="small_childe_21_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_21_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_21_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_21_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_21_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_2" id="car_1_21"></div>
+		<div class="car_player2_2" id="car_2_21"></div>
+	</div>
+	<div class="aqcia_4" id="aqcia_4_2">
+		<div class="car_player1_2" id="car_1_22"></div>
+		<div class="car_player2_2" id="car_2_22"></div>
+	</div>
+	<div class="aqcia_4" id="aqcia_4_3">
+		<div class="home_2">
+			<div class="small_hose_1" id="small_23">
+				<div class="small_hose_childe_1" id="small_childe_23_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_23_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_23_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_23_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_23_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_2" id="car_1_23"></div>
+		<div class="car_player2_2" id="car_2_23"></div>
+	</div>
+	<div class="aqcia_4" id="aqcia_4_4">
+		<div class="home_2">
+			<div class="small_hose_1" id="small_24">
+				<div class="small_hose_childe_1" id="small_childe_24_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_24_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_24_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_24_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_24_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_2" id="car_1_24"></div>
+		<div class="car_player2_2" id="car_2_24"></div>
+	</div>
+	<div class="aqcia_4" id="aqcia_4_5">
+		<div class="car_player1_2" id="car_1_25"></div>
+		<div class="car_player2_2" id="car_2_25"></div>
+	</div>
+	<div class="aqcia_4" id="aqcia_4_6">
+		<div class="home_2">
+			<div class="small_hose_1" id="small_26">
+				<div class="small_hose_childe_1" id="small_childe_26_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_26_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_26_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_26_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_26_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_2" id="car_1_26"></div>
+		<div class="car_player2_2" id="car_2_26"></div>
+	</div>
+	<div class="aqcia_4" id="aqcia_4_7">
+		<div class="home_2">
+			<div class="small_hose_1" id="small_27">
+				<div class="small_hose_childe_1" id="small_childe_27_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_27_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_27_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_27_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_27_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_2" id="car_1_27"></div>
+		<div class="car_player2_2" id="car_2_27"></div>
+	</div>
+	<div class="aqcia_4" id="aqcia_4_8">
+		<div class="car_player1_2" id="car_1_28"></div>
+		<div class="car_player2_2" id="car_2_28"></div>
+	</div>
+	<div class="aqcia_4" id="aqcia_4_9">
+		<div class="home_2">
+			<div class="small_hose_1" id="small_29">
+				<div class="small_hose_childe_1" id="small_childe_29_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_29_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_29_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_29_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_29_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_2" id="car_1_29"></div>
+		<div class="car_player2_2" id="car_2_29"></div>
+	</div>
+</div>
+<div class="right" id="right_1">
+	<div class="aqcia_2" id="aqcia_2_1">
+		<div class="car_player1_3" id="car_1_30"></div>
+		<div class="car_player2_3" id="car_2_30"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_2">
+		<div class="home_3">
+			<div class="small_hose_1" id="small_31">
+				<div class="small_hose_childe_1" id="small_childe_31_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_31_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_31_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_31_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_31_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_3" id="car_1_31"></div>
+		<div class="car_player2_3" id="car_2_31"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_3">
+		<div class="home_3">
+			<div class="small_hose_1" id="small_32">
+				<div class="small_hose_childe_1" id="small_childe_32_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_32_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_32_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_32_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_32_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_3" id="car_1_32"></div>
+		<div class="car_player2_3" id="car_2_32"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_4">
+		<div class="car_player1_3" id="car_1_33"></div>
+		<div class="car_player2_3" id="car_2_33"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_5">
+		<div class="home_3">
+			<div class="small_hose_1" id="small_34">
+				<div class="small_hose_childe_1" id="small_childe_34_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_34_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_34_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_34_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_34_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_3" id="car_1_34"></div>
+		<div class="car_player2_3" id="car_2_34"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_6">
+		<div class="car_player1_3" id="car_1_35"></div>
+		<div class="car_player2_3" id="car_2_35"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_7">
+		<div class="car_player1_3" id="car_1_36"></div>
+		<div class="car_player2_3" id="car_2_36"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_8">
+		<div class="home_3">
+			<div class="small_hose_1" id="small_37">
+				<div class="small_hose_childe_1" id="small_childe_37_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_37_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_37_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_37_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_37_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_3" id="car_1_37"></div>
+		<div class="car_player2_3" id="car_2_37"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_9">
+		<div class="car_player1_3" id="car_1_38"></div>
+		<div class="car_player2_3" id="car_2_38"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_10">
+		<div class="home_3">
+			<div class="small_hose_1" id="small_39">
+				<div class="small_hose_childe_1" id="small_childe_39_1"></div>
+				<div class="small_hose_childe_1" id="small_childe_39_2"></div>
+				<div class="small_hose_childe_1" id="small_childe_39_3"></div>
+				<div class="small_hose_childe_1" id="small_childe_39_4"></div>
+			</div>
+			<div class="big_hose_1" id="small_childe_39_5">
+				<div class="big_hose_childe_1"></div>
+			</div>
+		</div>
+		<div class="car_player1_3" id="car_1_39"></div>
+		<div class="car_player2_3" id="car_2_39"></div>
+	</div>
+	<div class="aqcia_2" id="aqcia_2_11">
+		<div class="car_player1_3" id="car_1_0"></div>
+		<div class="car_player2_3" id="car_2_0"></div>
+	</div>
+</div>
+</div>
+	<div class="player_2_right">
+		<div class="ssa">
+			<div class="ssa_1">
+				<div class="ssa_1_1" id="ssa_1_1_pl2"></div>
+				<div class="ssa_1_2" id="ssa_1_2_2">saxeli</div>
+				<div class="ssa_1_3" id="ssa_1_3_2">50000</div>
+			</div>
+			<div class="sajarimo_sadgomi" id="saj_2">gamosatovebeli gagorebebi 0</div>
+			<div class="ssa_2" id="ssa_2_2"></div>
+			<div class="ssa_3">
+				<div class="messeg" id="messeg_2"></div>
+				<div class="bisunes" id="bisunes_2"></div>
+				<div class="kam_roll_1" id="kam_roll_2"></div>
+			</div>
+		</div>
+		<div class="player_action_show">
+			<div class="player_action_show_childe" id="pl_2_action_1"></div>
+			<div class="player_action_show_childe" id="pl_2_action_3"></div>
+			<div class="player_action_show_childe" id="pl_2_action_5"></div>
+			<div class="player_action_show_childe" id="pl_2_action_6"></div>
+			<div class="player_action_show_childe" id="pl_2_action_8"></div>
+			<div class="player_action_show_childe" id="pl_2_action_9"></div>
+			<div class="player_action_show_childe" id="pl_2_action_11"></div>
+			<div class="player_action_show_childe" id="pl_2_action_12"></div>
+			<div class="player_action_show_childe" id="pl_2_action_13"></div>
+			<div class="player_action_show_childe" id="pl_2_action_14"></div>
+			<div class="player_action_show_childe" id="pl_2_action_15"></div>
+			<div class="player_action_show_childe" id="pl_2_action_16"></div>
+			<div class="player_action_show_childe" id="pl_2_action_18"></div>
+			<div class="player_action_show_childe" id="pl_2_action_19"></div>
+			<div class="player_action_show_childe" id="pl_2_action_21"></div>
+			<div class="player_action_show_childe" id="pl_2_action_23"></div>
+			<div class="player_action_show_childe" id="pl_2_action_24"></div>
+			<div class="player_action_show_childe" id="pl_2_action_25"></div>
+			<div class="player_action_show_childe" id="pl_2_action_26"></div>
+			<div class="player_action_show_childe" id="pl_2_action_27"></div>
+			<div class="player_action_show_childe" id="pl_2_action_28"></div>
+			<div class="player_action_show_childe" id="pl_2_action_29"></div>
+			<div class="player_action_show_childe" id="pl_2_action_31"></div>
+			<div class="player_action_show_childe" id="pl_2_action_32"></div>
+			<div class="player_action_show_childe" id="pl_2_action_34"></div>
+			<div class="player_action_show_childe" id="pl_2_action_35"></div>
+			<div class="player_action_show_childe" id="pl_2_action_37"></div>
+			<div class="player_action_show_childe" id="pl_2_action_39"></div>
+		</div>
+	</div>
+</div>
+</body>
+<script src="game.js" type="text/javascript"></script>
+</html>
